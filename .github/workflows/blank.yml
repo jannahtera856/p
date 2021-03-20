@@ -68,7 +68,7 @@ jobs:
             django-version: "2.2"
           - python-version: "3.9"
             django-version: "3.0"
-	timeout-minutes : 360
+	
     steps:
       - uses: actions/checkout@v2
           
